@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif; /* New font family */
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
-  background-color: #eee; /* Lighter background */
+  background-color: #eee;
   color: #333;
   line-height: 1.6;
 }
@@ -15,13 +15,13 @@ body {
 /* Container */
 .container {
   width: 90%;
-  max-width: 1000px; /* Adjusted max-width */
+  max-width: 1000px;
   margin: auto;
 }
 
 /* Navigation */
 .navbar {
-  background-color: #1779ba; /* New primary color */
+  background-color: #1779ba;
   color: #fff;
   padding: 1rem 0;
   position: sticky;
@@ -38,7 +38,7 @@ body {
 .navbar .logo {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #fff; /* Removed orange color */
+  color: #fff;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar .nav-links li {
-  margin-left: 1.5rem; /* Reduced spacing */
+  margin-left: 1.5rem;
 }
 
 .navbar .nav-links a {
@@ -74,61 +74,61 @@ body {
 }
 
 .hero-content {
-  max-width: 800px; /* Increased max-width */
+  max-width: 800px;
 }
 
 .hero-title {
-  font-size: 2.5rem; /* Reduced font size */
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .hero-title span {
-  color: #000; /* Removed orange color */
+  color: #000;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem; /* Reduced font size */
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
 .hero-buttons .btn-primary,
 .hero-buttons .btn-secondary {
-  padding: 0.6rem 1.2rem; /* Reduced padding */
+  padding: 0.6rem 1.2rem;
   margin: 0.3rem;
   border: none;
-  border-radius: 0.3rem; /* Reduced border radius */
+  border-radius: 0.3rem;
   text-decoration: none;
   font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .hero-buttons .btn-primary {
-  background-color: #0095ff; /* New primary color */
+  background-color: #0095ff;
   color: #fff;
 }
 
 .hero-buttons .btn-primary:hover {
-  background-color: #007bff; /* Darker shade of primary color */
-  transform: scale(1.03); /* Reduced scale */
+  background-color: #007bff;
+  transform: scale(1.03);
 }
 
 .hero-buttons .btn-secondary {
-  background-color: #343a40; /* Darker secondary color */
+  background-color: #343a40;
   color: #fff;
 }
 
 .hero-buttons .btn-secondary:hover {
-  background-color: #495057; /* Darker shade of secondary color */
-  transform: scale(1.03); /* Reduced scale */
+  background-color: #495057;
+  transform: scale(1.03);
 }
 
 /* Section Titles */
 .section-title {
-  font-size: 2rem; /* Reduced font size */
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 1rem;
-  color: #1779ba; /* New primary color */
+  color: #1779ba;
 }
 
 /* About Section */
@@ -327,7 +327,6 @@ body {
 }
 
 /* Footer */
-
 .footer {
   background-color: #222;
   color: #fff;
